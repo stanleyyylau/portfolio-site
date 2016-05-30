@@ -36,12 +36,8 @@ header p{
 		text-align: center;
 	}
 	.logo-img {
-    margin: 0 auto;
-    margin-top: 15px;
-	}
-	article.col-md-4 {
-    width: 100%;
-    display: inline-block;
+	    margin: 0 auto;
+	    margin-top: 15px;
 	}
 	.project-img {
     margin: 0 auto;
