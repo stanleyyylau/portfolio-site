@@ -1,0 +1,82 @@
+.section-title {
+    color: #7d97ad;
+    margin-top: 35px;
+}
+
+.site-name {
+    font-family: lato;
+    font-weight: 300;
+    color: #2d3c49;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.logo-img {
+    width: 101px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.project-title {
+    color: #2d3c49;
+}
+
+header p{
+	letter-spacing: 2px;
+}
+
+
+/*this is the media stuff for reponsiveness*/
+
+@media all and (max-width: 995px){
+	.col-md-6 {
+		text-align: center;
+	}
+	.logo-img {
+    margin: 0 auto;
+    margin-top: 15px;
+	}
+	article.col-md-4 {
+    width: 100%;
+    display: inline-block;
+	}
+	.project-img {
+    margin: 0 auto;
+	}
+	.section-title {
+    text-align: center;
+	}
+}
+
+
+@media all and (max-width: 780px){
+	.logo-img {
+    	margin: 20px auto 0 auto;
+	}
+	.col-md-6 {
+    	text-align: center;
+	}
+	.project-img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.section-title {
+    text-align: center;
+	}
+}
+
+
+@media all and (max-width: 420px){
+	.logo-img {
+    	margin: 20px auto 0 auto;
+	}
+	.col-md-6 {
+    	text-align: center;
+	}
+}
+
+
